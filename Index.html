@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="overscroll-none h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guide</title>
+
+  <!-- Tailwind CSS local CDN -->
+  <script src="tailwindcdn.js"></script>
+
+  <!-- Lottie animation player -->
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="TTCSISstyle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Theme colors for various devices -->
+  <meta name="theme-color" content="#F8F8F8" />
+  <meta name="msapplication-navbutton-color" content="#F8F8F8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#F8F8F8" />
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;" class="min-h-screen bg-white flex flex-col overscroll-none overflow-auto h-full">
+
+  <!-- Header section with logo and branding -->
+  <header class="bg-[#FEFEFE] h-[135px] p-4 flex flex-col items-start justify-start font-bold flex-shrink-0 border-b border-gray-200">
+    <img src="images/Group 26.png" alt="Back" class="h-[45px] w-[45px] object-contain mb-1 mt-4 ml-4" />
+    <div id="mainhead" class="text-left text-[14px] text-[#A1A1A1] mt-5 ml-4">
+      Bluedunkalo <span class="text-[#1a1a1a]">technology</span><span class="text-[#1a1a1a]">.</span>
+    </div>
+  </header>
+
+  <!-- Main content area fills the remaining space -->
+  <main class="flex-grow p-4 flex">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 w-full h-full">
+
+      <!-- Navigation bar, sticky and responsive -->
+      <div id="navbar" class="shadow flex flex-col h-[60px] bg-opacity-30 backdrop-blur p-2 items-center justify-center bg-[#F8F8F8] w-full md:w-[60%] lg:w-[40%] md:ml-8 mx-auto text-white font-semibold rounded-xl md:col-span-2 mt-5 sticky top-10 z-50">
+        <div class="flex items-center justify-between text-[#929292] w-full p-6 font-bold">
+          <a href="Index.html" id="mspage">My Services</a>
+          <a href="Projects.html" id="mspage1">Projects</a>
+          <a href="Aboutme.html" id="mspage2">About me</a>
+        </div>
+      </div>
+
+      <!-- Intro section: short welcome message -->
+      <div id="sectionheader3" class="flex p-5 md:mb-10 items-center text-justify justify-center min-h-[80px] bg-white rounded-xl md:col-span-2 mt-10">
+        <p class="md:w-[70%] text-[14px]">
+          Welcome to bluedunkalo's portfolio, this is the branding of my skills as a business information technology specialist focused on data handling.
+        </p>
+      </div>
+
+      <!-- Lottie animation intro -->
+      <div class="flex justify-center w-full md:col-span-2 mt-2">
+        <div id="brandintro" class="w-[60%] min-h-[70px] md:mb-40 bg-white font-bold rounded-xl border-2 border-[#ffffff] flex justify-center mr-5">
+  <dotlottie-player
+    src="https://lottie.host/30abea85-32d3-4e47-83f8-e9f027c77593/8Nmvywn8DJ.lottie"
+    style="width: 350px; height: 300px"
+    speed="1"
+    autoplay
+    loop
+  ></dotlottie-player>
+</div>
+
+      </div>
+
+      <!-- Section header with pulse animation -->
+      <div class="flex justify-center w-full md:col-span-2 mt-5 md:mb-20">
+        <div id="sectionheader3" class="w-[90%] min-h-[150px] text-[18px] font-bold text-[#212121] bg-white rounded-xl md:col-span-2 animate-pulse text-left">
+          <p class="leading-snug">
+            Why your business
+            <span class="block md:inline">Should consider</span>
+            <span class="block md:inline">Information management systems</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Why section with bullet points -->
+      <div class="flex justify-center w-full md:col-span-2 mt-10 mb-10">
+        <div id="whysection" class="flex items-center justify-center w-[95%] min-h-[190px] md:min-h-[250px] lg:min-h-[300px] bg-white p-10 rounded-xl border-2 border-gray-50">
+          <ul class="text-white font-bold text-[14px] leading-relaxed tracking-wide list-disc pl-5 grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12">
+            <li>Fast and easy decision making</li>
+            <li>Easy data organization and backup</li>
+            <li>Easy business progress tracking</li>
+            <li>Reduced costs and loss of time</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Services header -->
+      <div class="flex justify-center w-full md:col-span-2 mt-5 md:mt-10 md:mb-10">
+        <div id="sectionheader3" class="w-[90%] min-h-[50px] text-[18px] font-bold text-[#212121] bg-white rounded-xl md:col-span-2 text-left">
+          <p class="leading-snug">My Services</p>
+        </div>
+      </div>
+
+      <!-- Service: Web-based systems -->
+      <div class="flex justify-center w-full md:col-span-2 mb-4">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+          <div class="flex items-center justify-between w-full mb-5">
+            <h2 class="font-semibold ml-2 text-[#4C4C4C]">Web-based systems</h2>
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="w-[30px] h-[30px]" />
+          </div>
+          <p class="ml-2 text-[#B0B0B0]">Sales management system</p>
+          <p class="ml-2 text-[#B0B0B0]">Stock / Inventory management system</p>
+        </div>
+      </div>
+
+      <!-- Service: Excel systems -->
+      <div class="flex justify-center w-full md:col-span-2 mb-4">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+          <div class="flex items-center justify-between w-full mb-5">
+            <h2 class="font-semibold ml-2 text-[#4C4C4C]">Excel systems</h2>
+            <img src="Images/vscode-icons_file-type-excel.svg" alt="Icon" class="w-[30px] h-[30px]" />
+          </div>
+          <p class="ml-2 text-[#B0B0B0]">Data entry forms and visualizations</p>
+        </div>
+      </div>
+
+      <!-- Service: Business report dashboard -->
+      <div class="flex justify-center w-full md:col-span-2 mb-4">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+          <div class="flex items-center justify-between w-full mb-5">
+            <h2 class="font-semibold ml-2 text-[#4C4C4C]">Business report dashboard</h2>
+            <img src="Images/logos_microsoft-power-bi.svg" alt="Icon" class="w-[30px] h-[30px]" />
+          </div>
+          <p class="ml-2 text-[#B0B0B0]">Interactive dashboard Power BI</p>
+          <p class="ml-2 text-[#B0B0B0]">Sort information by sales, date, product</p>
+        </div>
+      </div>
+
+      <!-- Contact button - opens modal -->
+      <div class="flex justify-center w-full md:col-span-2 mb-20">
+        <div class="flex flex-col w-[95%] items-center justify-center min-h-[65px] bg-white font-bold rounded-xl border-2 border-white md:col-span-2 mt-20" onclick="OpenContactModal()" tabindex="0">
+          <button
+            type="button"
+            class="text-[13px] shadow w-full h-[65px] bg-[#000000] text-[#BBBBBB] rounded-[15px] border-1 border-gray-50 flex-shrink-0 overflow-hidden transition-all duration-200 hover:scale-105 hover:bg-[#F9F9F9] active:scale-100 active:black"
+          >
+            Contact
+          </button>
+        </div>
+      </div>
+
+      <!-- Process enquiry header -->
+      <div class="flex justify-center w-full md:col-span-2 mt-5 mb-10 md:mt-20 md:mb-10">
+        <div id="sectionheader3" class="w-[90%] min-h-[150px] text-[18px] font-bold text-[#212121] bg-white rounded-xl md:col-span-2 animate-pulse text-left">
+          <p class="leading-snug">
+            Process of enquiring a
+            <span class="block md:inline">System for your business</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Rotating images section -->
+      <div class="flex justify-center w-full md:col-span-2 mb-4">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+          <div class="flex items-center justify-center w-full">
+            <img id="rotatingImage" src="Images/P1.png" alt="Icon" class="md:h-[200px] rounded-md" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Small business encouragement message -->
+      <div id="sectionheader3" class="flex p-5 md:mb-10 items-center text-center justify-center min-h-[80px] bg-white rounded-xl md:col-span-2 mt-10">
+        <p class="md:w-[70%] text-[14px]">
+          Small businesses are vital, they deserve to have digital systems that can add value as the business grows. Lets work together, contact me.
+        </p>
+      </div>
+
+      <!-- Small Lottie animation -->
+      <div class="flex justify-center w-full md:col-span-2 mt-2">
+        <div id="brandintro" class="w-[100%] min-h-[50px] md:mb-10 bg-white font-bold rounded-xl border-2 border-[#ffffff] flex justify-center">
+          <dotlottie-player src="https://lottie.host/99a2463a-26f4-4c86-ab0d-4bb8fd9dd409/saDm2LPX0z.lottie" background="transparent" speed="1" style="width: 100px; height: 100px" loop autoplay></dotlottie-player>
+        </div>
+      </div>
+
+      <!-- Contact button repeated for convenience -->
+      <div class="flex justify-center w-full md:col-span-2 mb-20">
+        <div class="flex flex-col w-[95%] items-center justify-center min-h-[65px] bg-white font-bold rounded-xl border-2 border-white md:col-span-2 mt-10" onclick="OpenContactModal()" tabindex="0">
+          <button
+            type="button"
+            class="text-[13px] shadow w-full h-[65px] bg-[#000000] text-[#BBBBBB] rounded-[15px] border-1 border-gray-50 flex-shrink-0 overflow-hidden transition-all duration-200 hover:scale-105 hover:bg-[#F9F9F9] active:scale-100 active:black"
+          >
+            Contact
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Splash screen to show loading -->
+  <div id="splash" class="fixed inset-0 z-50 flex items-center justify-center bg-white w-screen h-screen">
+    <div class="w-full h-full flex items-center justify-center" style="background-color: #ffffff;">
+      <img src="Images/Group 26.png" alt="Loading..." class="w-12 h-12 animate-growPulse" />
+    </div>
+  </div>
+
+  <!-- Footer with copyright and powered by Firebase -->
+  <footer class="bg-white text-[#e0e0e0] shadow p-4 text-center text-sm flex-shrink-0">
+    ©&nbsp;&nbsp;bluedunkalo technology 2025
+    <div class="flex justify-center items-center gap-1 mt-2">
+      <h4 id="pf">Powered by Firebase</h4>
+      <img src="Images/firebase.svg" alt="Firebase logo" class="w-[17px] h-[17px] mt-1" />
+    </div>
+  </footer>
+
+  <!-- Contact Modal (hidden by default) -->
+  <div id="cModal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50 items-center justify-center">
+    <div class="bg-white rounded-xl shadow-xl p-6 w-[90%] max-w-md text-center">
+      <h2 class="text-xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+
+      <!-- Email contact -->
+      <div class="flex items-center justify-start gap-3 mb-4 text-left">
+        <img src="Images/line-md_email.png" alt="Icon" class="w-[30px] h-[30px]" />
+        <a href="mailto:bluedunkalotech@gmail.com" class="text-sm text-blue-600 underline hover:text-blue-800">
+          bluedunkalotech@gmail.com
+        </a>
+      </div>
+
+      <!-- Phone contact -->
+      <div class="flex items-center justify-start gap-3 mb-4 text-left">
+        <img src="Images/fluent_call-20-filled.png" alt="Icon" class="w-[50px] h-[50px]" />
+        <a href="tel:+265987265398" class="text-sm text-blue-600 underline hover:text-blue-800">
+          +265 987 265 398
+        </a>
+      </div>
+
+      <button onclick="CloseContactModal()" class="mt-6 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition-all">
+        Close
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Open contact modal by removing 'hidden' and adding 'flex'
+    function OpenContactModal() {
+      const modal = document.getElementById("cModal");
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    }
+
+    // Close contact modal by reversing class changes
+    function CloseContactModal() {
+      const modal = document.getElementById("cModal");
+      modal.classList.remove("flex");
+      modal.classList.add("hidden");
+    }
+  </script>
+
+  <script>
+    // Splash screen hides after page load with fade-out animation
+    window.addEventListener("load", () => {
+      const splash = document.getElementById("splash");
+      setTimeout(() => {
+        splash.classList.add("fade-out");
+        setTimeout(() => {
+          splash.style.display = "none";
+        }, 3000);
+      }, 2500);
+    });
+  </script>
+
+  <script src="SystemSCRIPTS.js"></script>
+
+  <script>
+    // Sticky navbar logic with overlap detection on scroll
+    const navbar = document.getElementById("navbar");
+    const whySection = document.getElementById("whysection");
+
+    window.addEventListener("scroll", () => {
+      const stickyPoint = 10;
+      const scrollY = window.scrollY;
+
+      const pastStickyPoint = scrollY > stickyPoint;
+
+      const navbarRect = navbar.getBoundingClientRect();
+      const whyRect = whySection.getBoundingClientRect();
+
+      const isOverlapping =
+        navbarRect.bottom > whyRect.top &&
+        navbarRect.top < whyRect.bottom;
+
+      navbar.classList.remove("sticky-active", "sticky-overlap");
+
+      if (isOverlapping) {
+        navbar.classList.add("sticky-overlap");
+      } else if (pastStickyPoint) {
+        navbar.classList.add("sticky-active");
+      }
+    });
+  </script>
+
+  <script>
+    // Rotating images for the portfolio section every 2.5 seconds
+    const imageElement = document.getElementById("rotatingImage");
+    const imageList = [
+      "Images/P1.png",
+      "Images/P2.png",
+      "Images/P3.png",
+      "Images/P4.png",
+      "Images/P5.png",
+    ];
+
+    let currentIndex = 0;
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % imageList.length;
+      imageElement.src = imageList[currentIndex];
+    }, 2500);
+  </script>
+
+</body>
+</html>
