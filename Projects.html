@@ -1,0 +1,659 @@
+<!DOCTYPE html> 
+<html lang="en" class="overscroll-none h-full">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+
+    <!-- Connected Tailwind CSS using local CDN -->
+    <script src="tailwindcdn.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="TTCSISstyle.css" />
+    <link rel="preload" as="fetch" href="https://lottie.host/30abea85-32d3-4e47-83f8-e9f027c77593/8Nmvywn8DJ.lottie" type="application/octet-stream" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#F8F8F8" />
+
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#F8F8F8" />
+
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#F8F8F8" />
+
+
+
+
+
+
+
+    
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;" class="min-h-screen bg-whites flex flex-col overscroll-none overflow-auto h-full">
+
+    <!-- Header -->
+  <header class="bg-[#FEFEFE] h-[135px] p-4 flex flex-col items-start justify-start font-bold flex-shrink-0  border-b border-gray-200">
+    
+    <img src="Images/Group 26.png" alt="Back" class="h-[45px] w-[45px] object-contain mb-1 mt-4 ml-4" />
+    
+    <div id="mainhead" style="font-family: 'Poppins', sans-serif;" class="font-bold text-[14px] text-[#A1A1A1] mt-5 ml-4">
+        Bluedunkalo <span  class="text-[#1a1a1a]"> technology</span> <span class="text-[#1a1a1a]">.</span>
+    </div>
+
+</header>
+
+
+    <!-- Main: fill remaining space -->
+<main class="flex-grow p-4 flex">
+        <div class="max-w-7xl mx-auto grid grid-cols-1  md:grid-cols-2 gap-2 w-full h-full">
+
+            <!-- One big bento full width -->
+        <div id="navbar"  class="shadow flex flex-col  h-[60px] bg-opacity-30 backdrop-blur p-2 items-center justify-center bg-[#F8F8F8]  w-full md:w-[60%] lg:w-[40%] md:ml-8 mx-auto text-white font-semibold rounded-xl md:col-span-2 mt-5 sticky top-10 z-50">
+           
+           <div class="flex items-center justify-between text-[#929292] w-full md:col-span-2 p-6 font-bold ">
+            <a href="Index.html" id="mspage1">My Services</a>
+            <a href="Index.html" style="padding-left: 25px;padding-right: 25px;" id="mspage">Projects</a>
+            <a href="Aboutme.html" id="mspage2">About me</a>
+            </div>
+            
+        </div>
+
+         <!-- One big bento full width -->
+                <div id="sectionheader3" class="flex  p-5 md:mb-10 items-center text-center justify-center min-h-[80px] bg-white  rounded-xl md:col-span-2  mt-10">
+                <p class="md:w-[70%] text-[14px]">Please click on a project to view more brief details</p>
+      
+        </div>
+        
+
+
+        <div class="flex justify-center w-full md:col-span-2 mt-5 md:mt-10 md:mb-10">
+            <div id="sectionheader3" class="w-[90%] mt-5 min-h-[50px] text-[18px] text-[#A1A1A1] items-start justify-start  min-h-[50px] bg-white text-[#000000] rounded-xl md:col-span-2 text-left">
+            <p class="leading-snug">
+            Web-based Projects
+            </p>
+        </div>
+        </div>
+            
+        <div class="flex justify-center w-full md:col-span-2 mb-5" tabindex="0" onclick="openModal()">
+        <div id="services" class="flex flex-col w-[95%] p-4 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+         <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/Rectangle 364.png" alt="Icon" class="ml-2 w-[30px] h-[30px]" /><br/>
+        
+        </div>
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Tee-Tee Chillies Information Management System</h2>
+        
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">JS | REST API | Vanila CSS | Tailwind CSS | HTML</p>
+        
+    </div>
+    </div>
+     <div class="flex justify-center w-full md:col-span-2 mb-5" tabindex="0" onclick="openPortfolioModal()">
+        <div id="services" class="flex flex-col w-[95%] p-4 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+         <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/Group 26.png" alt="Icon" class="ml-2 w-[30px] h-[30px]" /><br/>
+        
+        </div>
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Bluedunkalo portfolio</h2>
+        
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">JS | REST API | Vanila CSS | Tailwind CSS | HTML</p>
+        
+    </div>
+    </div>
+     <div class="flex justify-center w-full md:col-span-2 mb-5" tabindex="0" onclick="openWsModal()">
+        <div id="services" class="flex flex-col w-[95%] p-4 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+         <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="ml-2 w-[30px] h-[30px]" /><br/>
+        
+        </div>
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Kaphonde Incubator Information System</h2>
+        
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.1</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">JS | REST API | Vanila CSS | HTML</p>
+        
+    </div>
+    </div>
+     <div class="flex justify-center w-full md:col-span-2 mb-5" tabindex="0" onclick="openWs2Modal()">
+        <div id="services" class="flex flex-col w-[95%] p-4 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+         <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="ml-2 w-[30px] h-[30px]" /><br/>
+        
+        </div>
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Fvs Group digital survey</h2>
+        
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">JS | REST API | Vanila CSS | HTML</p>
+        
+    </div>
+    </div>
+    <div class="flex justify-center w-full md:col-span-2 mb-5" tabindex="0" onclick="openWs3Modal()">
+        <div id="services" class="flex flex-col w-[95%] p-4 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+         <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="ml-2 w-[30px] h-[30px]" /><br/>
+        
+        </div>
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Kaphonde Pig Feed Calculator</h2>
+        
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">JS | REST API | Vanila CSS | HTML</p>
+        
+    </div> 
+    </div>
+    
+    <div class="flex justify-center w-full md:col-span-2 mt-5 md:mt-10 md:mb-10">
+            <div id="sectionheader3" class="w-[90%] mt-5 min-h-[50px] text-[18px]  text-[#A1A1A1] items-start justify-start  min-h-[50px] bg-white text-[#000000] rounded-xl md:col-span-2 text-left">
+            <p class="leading-snug">
+            Excel-based Projects
+            </p>
+        </div>
+        </div>
+    <div class="flex justify-center w-full md:col-span-2 mb-4" onclick="openExcelModal()" tabindex="0">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+          <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/vscode-icons_file-type-excel.svg" alt="Icon" class="w-[30px] h-[30px]" />
+        
+        </div>
+        <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Q-world liquors stock system</h2>
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 text-[#B0B0B0]">Version 1.2</p>
+        <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">Excel Spreadsheet | Data Formulas | Visual Charts</p>
+
+
+        
+        
+    </div>
+    </div>
+      <div class="flex justify-center w-full md:col-span-2 mt-5 md:mt-10 md:mb-10">
+            <div id="sectionheader3" class="w-[90%] mt-5 min-h-[50px] text-[18px] text-[#A1A1A1] items-start justify-start  min-h-[50px] bg-white text-[#000000] rounded-xl md:col-span-2 text-left">
+            <p class="leading-snug">
+            Power Bi dashboard projects
+            </p>
+        </div>
+        </div>
+    
+     <div class="flex justify-center w-full md:col-span-2 mb-4" onclick="openPsModal()" tabindex="0">
+        <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+    
+        <!-- Title + Image in a flex row -->
+          <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/logos_microsoft-power-bi.svg" alt="Icon" class="w-[30px] h-[30px]" />
+        
+        </div>
+        <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Automobile sales report</h2>
+        </div>  
+
+        <!-- Description -->
+        <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+        <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">Data set | Editor | visualizations</p>
+        
+
+
+        
+        
+    </div>
+    </div>
+        
+        
+        <div class="flex justify-center  w-full md:col-span-2 mt-2">
+
+        <div id="brandintro" class="w-[100%] min-h-[50px] md:mb-10 bg-white font-bold rounded-xl mt-10 border-2 border-[#ffffff] flex justify-center ">
+             <!-- Content goes here -->
+        <dotlottie-player src="https://lottie.host/99a2463a-26f4-4c86-ab0d-4bb8fd9dd409/saDm2LPX0z.lottie" background="transparent" speed="1" style="width: 100px; height: 100px" loop autoplay></dotlottie-player>
+         </div>
+        </div>
+        <div class="flex justify-center w-full md:col-span-2 mb-20">
+        <div class=" flex flex-col w-[95%] items-center justify-center min-h-[65px] bg-white font-bold rounded-xl border-2 border-white md:col-span-2 mt-10" onclick="OpenContactModal()" tabindex="0">
+            <button type="button"  class="text-[13px] shadow w-full h-[65px] bg-[#000000] text-[#BBBBBB] rounded-[15px] border-1 border-gray-50 flex-shrink-0 overflow-hidden
+             transition-all duration-200 hover:scale-105 hover:bg-[#F9F9F9] active:scale-100 active:black"
+             >
+             <!-- The above code is my button transition on hover + active -->
+            
+
+            Contact
+
+            </button>
+        
+        </div>
+        </div>
+
+      
+        </div>
+</main>
+
+     <!-- Footer -->
+   <footer class="bg-white text-[#e0e0e0] shadow p-4 text-center text-sm flex-shrink-0">
+  ©&nbsp;&nbsp;bluedunkalo technology 2025
+
+  <div class="flex justify-center items-center gap-1 mt-2">
+    <h4 id="pf">Powered by Firebase</h4>
+    <img src="Images/firebase.svg" alt="Firebase logo" class="w-[17px] h-[17px] mt-1" />
+  </div>
+</footer>
+<!-- Contact Modal -->
+<div id="cModal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50 items-center justify-center">
+  <div class="bg-white rounded-xl shadow-xl p-6 w-[90%] max-w-md text-center">
+    <h2 class="text-xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+
+    <!-- New Line with Icon + Link -->
+    <div class="flex items-center justify-start gap-3 mb-4 text-left">
+      <img src="Images/line-md_email.png" alt="Icon" class="w-[30px] h-[30px]" />
+      <a href="mailto:bluedunkalotech@gmail.com" class="text-sm text-blue-600 underline hover:text-blue-800">
+        bluedunkalotech@gmail.com
+      </a>
+    </div>
+    <div class="flex items-center justify-start gap-3 mb-4 text-left">
+      <img src="Images/fluent_call-20-filled.png" alt="Icon" class="w-[50px] h-[50px]" />
+      <a href="tel:+265987265398" class="text-sm text-blue-600 underline hover:text-blue-800">
+        +265 987 265 398
+      </a>
+    </div>
+
+    <button onclick="CloseContactModal()" class="mt-6 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition-all">
+      Close
+    </button>
+  </div>
+</div>
+
+
+<script>
+  function OpenContactModal() {
+    const modal = document.getElementById("cModal");
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+  }
+
+  function CloseContactModal() {
+    const modal = document.getElementById("cModal");
+    modal.classList.remove("flex");
+    modal.classList.add("hidden");
+  }
+</script>
+<!-- webbased Modal -->
+<div id="confirmModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/Rectangle 364.png" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Tee-Tee chillies sales information management system
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">JS | REST API | Vanilla CSS | Tailwind CSS | HTML</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        The system is built to account for daily sales carried out by the business. 
+        Simply a digital book with a user-friendly design for easy navigation, 
+        easy data storing and data organization, for analysis that can aid in effective 
+        and efficient decision making.
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/TTUID.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closeModal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openModal() {
+    document.getElementById("confirmModal").classList.remove("hidden");
+  }
+
+  function closeModal() {
+    document.getElementById("confirmModal").classList.add("hidden");
+  }
+</script>
+<!-- webbased Modal -->
+<div id="portfolioModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/Group 26.png" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Bluedunkalo portfolio 
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">JS | Vanilla CSS | Tailwind CSS | HTML | Lottifiles</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is simply a similar digital business card for the services offered by bluedunkalo.
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/BDUI.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closePortfolioModal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openPortfolioModal() {
+    document.getElementById("portfolioModal").classList.remove("hidden");
+  }
+
+  function closePortfolioModal() {
+    document.getElementById("portfolioModal").classList.add("hidden");
+  }
+</script>
+<!-- webbbased1 Modal -->
+<div id="W1Modal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Kaphonde Incubator Information System 
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.1</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">JS | REST API Vanilla CSS | HTML | Lottifiles</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is a record keeping system that can be used to manage an Incubators service or say use. This helps to account for 
+        eggs and with the addition of data analysis, the user can study the progress or error areas and hence increasing the Incubating service business 
+        survival.
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/Group 64.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closeWsModal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openWsModal() {
+    document.getElementById("W1Modal").classList.remove("hidden");
+  }
+
+  function closeWsModal() {
+    document.getElementById("W1Modal").classList.add("hidden");
+  }
+</script>
+<!-- webbbased2 Modal -->
+<div id="W2Modal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Fvs Group digital survey 
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">JS | REST API | Vanilla CSS | HTML | Lottifiles</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is a digital survey used by a group of developers to collect data for mental health research 
+        before solution proposals.
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images//GGSVui.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closeWs2Modal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openWs2Modal() {
+    document.getElementById("W2Modal").classList.remove("hidden");
+  }
+
+  function closeWs2Modal() {
+    document.getElementById("W2Modal").classList.add("hidden");
+  }
+</script>
+<!-- webbbased3 Modal -->
+<div id="W3Modal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/iconoir_internet.svg" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Kaphonde Pig Feed Calculator 
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">JS | Vanilla CSS | HTML </p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is an automated feed calculator where each item in the feed is set to specific amoutns
+        in response to other specified amounts for other items to make complete regulated feed. 
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/Group 68.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closeWs3Modal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openWs3Modal() {
+    document.getElementById("W3Modal").classList.remove("hidden");
+  }
+
+  function closeWs3Modal() {
+    document.getElementById("W3Modal").classList.add("hidden");
+  }
+</script>
+<!--powerbimodal-->
+<div id="PsModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div id="services" class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Image -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/logos_microsoft-power-bi.svg" alt="Icon" class="w-[30px] h-[30px]" /><br/>
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">
+          Automobile Sales Report 
+        </h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.0</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0] text-[10px]">Data set | Editor | visualizations</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is a sales analysis report for an autombile company. The analysis involves data cleaning and 
+        organizing to transform it into decision aiding information. The report is interactive meaning it can 
+        respond according to your prefered concept on your business data.
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/pbi1.png" alt="UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closePsModal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  function openPsModal() {
+    document.getElementById("PsModal").classList.remove("hidden");
+  }
+
+  function closePsModal() {
+    document.getElementById("PsModal").classList.add("hidden");
+  }
+</script>
+
+<!-- Excel Modal -->
+<div id="excelModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+  <div class="flex justify-center w-full md:col-span-2 mb-4">
+    <div class="flex flex-col w-[95%] p-5 bg-[#FDFDFD] rounded-xl md:col-span-2">
+
+      <!-- Title + Icon -->
+        <div class="cursor-pointer flex items-center justify-between w-full mb-5 "  >
+            <img src="Images/vscode-icons_file-type-excel.svg" alt="Icon" class="w-[30px] h-[30px]" />
+        
+        </div>
+      <div class="flex items-center justify-between w-full mb-5">
+        <h2 class="font-semibold ml-2 text-[#4C4C4C]">Q-world liquors stock system</h2>
+      </div>
+
+      <!-- Description -->
+      <p class="ml-2 mt-2 text-[#B0B0B0]">Version 1.2</p>
+      <p class="ml-2 mt-2 text-[10px] text-[#B0B0B0]">Excel Spreadsheet | Data Formulas | Visual Charts</p>
+      <p class="ml-2 mt-2 text-[#B0B0B0]">
+        This is a simple and direct Excel-based solution for a bar. with interactive reports and charts, stock 
+        can be carried out smoothly as purchased products and closing balance are updated. 
+      </p>
+
+      <!-- Static UI Image -->
+      <div class="flex items-center justify-center w-full mt-6">
+        <img src="Images/Group 54.png" alt="Excel UI Preview" class="w-full max-w-md h-70 object-cover rounded-lg shadow" />
+      </div>
+
+      <!-- Button -->
+      <div class="flex justify-center space-x-4 mt-6">
+        <button onclick="closeExcelModal()" class="px-4 py-2 bg-[#000000] rounded-[10px] text-[#FFFFFF] hover:bg-gray-400">Done</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  function openExcelModal() {
+    document.getElementById("excelModal").classList.remove("hidden");
+  }
+
+  function closeExcelModal() {
+    document.getElementById("excelModal").classList.add("hidden");
+  }
+</script>
+
+
+<script src="SystemSCRIPTS.js"></script>
+<script>
+  const navbar = document.getElementById("navbar");
+
+  window.addEventListener("scroll", () => {
+    const stickyPoint = 10; // You can adjust this number if needed
+
+    if (window.scrollY > stickyPoint) {
+      navbar.classList.add("sticky-active");
+    } else {
+      navbar.classList.remove("sticky-active");
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,292 @@
+body{
+     font-family: 'Poppins', sans-serif;
+     background-color: #FFFFFF;
+}
+
+.fade-out {
+      opacity: 0;
+      transition: opacity 0.2s ease-out;
+      pointer-events: none;
+    }
+
+@keyframes growPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+
+  .animate-growPulse {
+    animation: growPulse 3.5s ease-in-out infinite;
+  }
+
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7375rem;
+  color: #939393;
+  font-weight: 500; /* semi-bold */
+}
+header{
+    background-color: #FEFEFE;
+    border-bottom: #cdcdcd solid 1px;
+}
+
+#mspage{
+  border: #E5E7EB solid 0.5px;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+ 
+}
+/* Tablet: medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #mspage{
+  border: #E5E7EB solid 0.5px;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+}
+
+#whysection {
+  background: linear-gradient(to right, #355DFF 0%, #355DFF 15%, #AAF9FF 100%);
+}
+
+#mainhead{
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  
+}
+#sectionheader1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+/* Mobile: small screens */
+@media (max-width: 640px) {
+  #sectionheader1 {
+   font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  }
+}
+
+/* Tablet: medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #sectionheader1 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  }
+}
+
+/* Desktop: large screens */
+@media (min-width: 1025px) {
+  #sectionheader1 {
+    font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  }
+}
+
+#introduction {
+  text-align:justify;
+  text-decoration:none;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px 5%;
+  font-weight: 450;
+  font-size: 30px;
+  line-height: 1.5;
+  /* Apply gradient to background */
+  background: linear-gradient(to right, #bababa 20%, #0e0e0e 80%);
+
+  /* Clip the background to the text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Optional: for better browser support */
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+}
+
+/* Mobile: small screens */
+@media (max-width: 640px) {
+  #introduction {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px;
+  }
+}
+
+/* Tablet: medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #introduction {
+    padding-left: 8%;
+    text-align: center;
+    padding-right: 8%;
+    font-size: 16px;
+  }
+}
+
+/* Desktop: large screens */
+@media (min-width: 1025px) {
+  #introduction {
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-size: 16px;
+  }
+}
+
+#mspage1{
+  
+  padding: 9px;
+  font-size: 0.9rem;
+  border-radius: 13px;
+ 
+}
+#mspage2{
+ 
+  padding: 9px;
+  font-size: 0.9rem;
+  border-radius: 13px;
+ 
+}
+#navbar {
+  border:#E5E7EB solid 0.5px;
+  transition: border-color 0.3s ease;
+}
+#navbar.sticky-active {
+  border-color: transparent;
+}
+#navbar.sticky-overlap {
+  /* Different style when overlapping whysection */
+  background-color: #F8F8F8; /* bright solid blue */
+  backdrop-filter: none; /* no blur on overlap */
+}
+
+#services{
+  border:#EDEDED solid 1px;
+
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  color: #ABA8A8;
+  margin-top: 10px;
+  font-weight: 600; /* semi-bold */
+}
+#whylist{
+  font-size: 15px;
+  color: white;
+  line-height: 1.8;         /* line spacing */
+  word-spacing: 2px;        /* space between words */
+  text-align: left;
+
+}
+#pf{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  color: #ABA8A8;
+  margin-top: 8px;
+  font-weight: 400; /* semi-bold */
+}
+#ttloginform{
+    background-color: #FFFFFF;
+     width: 90%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #F9F9F9;
+}
+.input-field::placeholder {
+  color: #C0C0C0; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+button[type="submit"][name="loginbutton"]{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: #940c0c;
+    color: white;
+    border: none;
+    margin-top: 50px;
+    height: 55px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.6s;
+}
+
+/* Hover: Scale up */
+button[type="submit"][name="loginbutton"]:hover {
+  transform: scale(1.07);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+}
+
+/* Active (pressed): Scale to normal + ensure background is black */
+button[type="submit"][name="loginbutton"]:active {
+  transform: scale(1);
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background-color: #000000;
+}
+
+
+
+/*This includes my animations and transitions*/
+
+.fade-out {
+      opacity: 0;
+      transition: opacity 0.2s ease-out;
+      pointer-events: none;
+    }
+
+@keyframes growPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+
+  .animate-growPulse {
+    animation: growPulse 3.5s ease-in-out infinite;
+  }
+
+#sectionheader3{
+  font-family: 'Poppins', sans-serif;
+  
+}
+/* Mobile: small screens */
+@media (max-width: 640px) {
+  #sectionheader3 {
+   font-family: 'Poppins', sans-serif;
+  
+  }
+}
+
+/* Tablet: medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #sectionheader3 {
+    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  }
+}
+
+/* Desktop: large screens */
+@media (min-width: 1025px) {
+  #sectionheader3 {
+    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  }
+}
